@@ -77,12 +77,9 @@ footer {
 
 .category,
 .card-content h1,
-.date {
-  margin-bottom: 1rem;
-}
-
+.date,
 .card-content {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .card-content h1:hover,
@@ -151,7 +148,7 @@ footer img {
   .card-content,
   .card-content h1,
   .date {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
   }
 
   footer img {
