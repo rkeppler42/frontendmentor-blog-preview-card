@@ -104,3 +104,22 @@ footer img {
     font-size: 14px;
   }
 }
+
+@media screen and (min-width: 480px) {
+  .blog-preview-card {
+    min-height: 522px;
+    min-width: 384px;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    box-shadow: 0.5rem 0.5rem black;
+    border: 1px solid #111;
+  }
+  .card-image img {
+    min-width: 336px;
+    min-height: 200px;
+    border-radius: 0.625rem;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+  }
+}
