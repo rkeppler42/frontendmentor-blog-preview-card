@@ -3,6 +3,11 @@
   src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: "Figtree Bolder";
+  src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
 :root {
   font-size: 16px;
 }
@@ -48,7 +53,7 @@ body,
   width: 21rem;
   height: 12rem;
   border-radius: 0.625rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   object-fit: cover;
 }
 
@@ -67,14 +72,17 @@ footer,
 .category,
 .card-content h1,
 footer {
-  font-weight: bolder;
+  font-family: "Figtree Bolder";
 }
 
 .category,
-.card-content,
 .card-content h1,
 .date {
   margin-bottom: 0.75rem;
+}
+
+.card-content {
+  margin-bottom: 1.5rem;
 }
 
 .card-content h1:hover,
@@ -125,7 +133,7 @@ footer img {
     width: 336px;
     height: 200px;
     border-radius: 10px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     object-fit: cover;
   }
 
@@ -149,5 +157,8 @@ footer img {
   footer img {
     height: 32px;
     width: 32px;
+  }
+  .card-content {
+    margin-bottom: 24px;
   }
 }
