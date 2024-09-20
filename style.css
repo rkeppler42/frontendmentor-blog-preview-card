@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Figtree";
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Figtree", sans-serif;
+  line-height: 150%;
+  color: #111;
+}
+
+body,
+.category {
+  background-color: #f4d04e;
+}
+
+.blog-preview-card {
+  height: 522px;
+  width: 384px;
+  background-color: white;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 8px 8px black;
+  border: 1px solid #111;
+}
+
+.card-image img {
+  width: 336px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.category {
+  padding: 4px 12px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.category,
+footer {
+  font-size: 14px;
+}
+
+.category,
+.card-content h1,
+footer {
+  font-weight: bolder;
+}
+
+.category,
+.card-content,
+.card-content h1,
+.date {
+  margin-bottom: 12px;
+}
+
+.date {
+  font-size: 14px;
+}
+
+.description {
+  color: #6b6b6b;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+footer img {
+  height: 32px;
+  width: 32 px;
+}
