@@ -58,7 +58,7 @@ body,
 }
 
 .category {
-  padding: 0.25rem 0.75rem;
+  padding: 0rem 0.75rem;
   display: inline-block;
   border-radius: 0.25rem;
 }
@@ -138,7 +138,7 @@ footer img {
   }
 
   .category {
-    padding: 4px 12px;
+    padding: 0px 12px;
     border-radius: 4px;
   }
 
