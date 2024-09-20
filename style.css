@@ -77,6 +77,13 @@ footer {
   margin-bottom: 0.75rem;
 }
 
+.card-content h1:hover,
+.card-content h1:active,
+.card-content h1:focus {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
 .description {
   color: #6b6b6b;
 }
