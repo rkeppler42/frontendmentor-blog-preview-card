@@ -109,17 +109,45 @@ footer img {
   .blog-preview-card {
     min-height: 522px;
     min-width: 384px;
-    background-color: white;
-    padding: 1.5rem;
-    border-radius: 1.25rem;
-    box-shadow: 0.5rem 0.5rem black;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 8px 8px black;
     border: 1px solid #111;
   }
+
+  .card-image {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+
   .card-image img {
-    min-width: 336px;
-    min-height: 200px;
-    border-radius: 0.625rem;
-    margin-bottom: 1.5rem;
+    width: 336px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 24px;
     object-fit: cover;
+  }
+
+  .category {
+    padding: 4px 12px;
+    border-radius: 4px;
+  }
+
+  .category,
+  footer,
+  .date {
+    font-size: 14px;
+  }
+  .category,
+  .card-content,
+  .card-content h1,
+  .date {
+    margin-bottom: 12px;
+  }
+
+  footer img {
+    height: 32px;
+    width: 32px;
   }
 }
